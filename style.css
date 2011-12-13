@@ -1,0 +1,67 @@
+html {
+	overflow: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+img {
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+p {
+	font-size:9px;
+}
+
+canvas {
+	background: #fff;
+	font-family: "Courier new";
+}
+.articleDetails {
+	position: absolute;
+}
+.sect {
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: -4px;
+	text-align: center;
+}
+.details {
+
+	padding: 8px;
+	
+	border: solid 2px #ccc;
+	background: #eee;
+	opacity: 0.75;
+	-webkit-box-shadow: 10px 10px 5px #888888; /* Safari and Chrome */
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.details p{	
+	color: black;
+	font-size: 16px;
+	text-align: left;
+}
+
+.details b{	
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 18px;
+	text-align: center;
+}
+
+.details a{	
+	color: black;
+	font-size: 14px;
+	text-align: center;
+}
